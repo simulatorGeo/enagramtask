@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 80px);
+ 
+}
+
+.updatable-content-container {
+    flex: 1 1 100%;
+    background-color: #F8F8F8
+    ;
+}
+
+.panel-container {
+    flex: 0 0 177px;
+}
+
+.quill-wrapper.quill {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ql-container {
+    height: 599px;
+}
+.editor-menu {
+    height:113.95px;
+    background-color: #F8F8F8;
+    
+}
+.editor-border {
+position: absolute;
+width: 80%;
+height: 0px;
+left: 178px;
+top: 195px;
+border: 1px solid #EDEDED;
+}

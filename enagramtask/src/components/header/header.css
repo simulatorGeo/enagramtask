@@ -1,0 +1,165 @@
+.header-wrapper {
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.add-to-chrome-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 20px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  border-radius: 8px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.add-to-chrome-text {
+  width: 102px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  color: #4b4b4b;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  
+}
+.upgrade-to-pro-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 20px;
+  gap: 4px;
+  background: #2d62ed;
+  border-radius: 6px;
+  margin-right: 80px;
+  cursor: pointer;
+}
+.upgrade-to-pro-button div {
+  width: 102px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
+.drop-down {
+margin-left:7.76px;
+margin-right: 37.76px;
+cursor: pointer;
+}
+.spellcheker {
+  position: absolute;
+width: 166px;
+height: 38px;
+left: 12px;
+top: 205px;
+
+background: #F8F8F8;
+border-radius: 30px 0px 0px 30px;
+display: flex;
+align-items: center;
+}
+.text-to-speech {
+  position: absolute;
+  left: 25px;
+  top: 252px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  color: #FFFFFF;
+  display: flex;
+ 
+}
+.text-to-speech svg {
+  margin-right: 13px;
+}
+.spellcheker-icon {
+height: 27px;
+width: 28px;
+margin-left: 12px;
+margin-right: 8px;
+display: flex;
+flex-direction: column;
+}
+.spellcheker-text {
+height: 20px;
+width: 73px;
+left: 60px;
+top: 214px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+color: #2D62ED;
+}
+
+.abc {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 4px;
+line-height: 5px;
+
+color: #2D62ED;
+}
+.speech-to-text {
+position: absolute;
+
+left: 25px;
+top: 290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+color: #FFFFFF;
+}
+.speech-to-text svg {
+  margin-right: 18px;
+}
+.line{
+position: absolute;
+width: 141px;
+height: 0px;
+left: 13px;
+top: 701px;
+border: 2px solid #9EB9FF;
+}
