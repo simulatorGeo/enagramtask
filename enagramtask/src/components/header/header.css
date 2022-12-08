@@ -77,11 +77,10 @@ margin-right: 37.76px;
 cursor: pointer;
 }
 .spellcheker {
-  position: absolute;
+
 width: 166px;
 height: 38px;
-left: 12px;
-top: 205px;
+
 
 background: #F8F8F8;
 border-radius: 30px 0px 0px 30px;
@@ -89,9 +88,8 @@ display: flex;
 align-items: center;
 }
 .text-to-speech {
-  position: absolute;
-  left: 25px;
-  top: 252px;
+
+  width: 166px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -126,7 +124,6 @@ line-height: 20px;
 /* identical to box height, or 167% */
 color: #2D62ED;
 }
-
 .abc {
 font-family: 'Inter';
 font-style: normal;
@@ -137,16 +134,15 @@ line-height: 5px;
 color: #2D62ED;
 }
 .speech-to-text {
-position: absolute;
-
-left: 25px;
-top: 290px;
-
+width: 166px;
+height: 38px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 20px;
+display: flex;
+align-items: center;
 /* identical to box height, or 167% */
 
 
@@ -156,10 +152,9 @@ color: #FFFFFF;
   margin-right: 18px;
 }
 .line{
-position: absolute;
+
 width: 141px;
 height: 0px;
-left: 13px;
-top: 701px;
+
 border: 2px solid #9EB9FF;
 }

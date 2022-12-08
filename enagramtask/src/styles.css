@@ -18,6 +18,10 @@ body {
 
 .panel-container {
     flex: 0 0 177px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
 .quill-wrapper.quill {
@@ -40,3 +44,117 @@ left: 178px;
 top: 195px;
 border: 1px solid #EDEDED;
 }
+.header-check {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 2px 4px 14px;
+gap: 4px;
+
+width: 106px;
+height: 36px;
+
+
+background: #2D62ED;
+border-radius: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+margin-right: 50%;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.header-check-button {
+    padding-left: 10px;
+    cursor: pointer;
+}
+.text-editor-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 14px;
+    padding-right: 10%;
+}
+.header-copy {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+width: 90px;
+height: 36px;
+background: #EDEDED;
+border-radius: 4px;
+margin-right: 14px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+color: #2D62ED;
+}
+.header-delete {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+width: 97px;
+height: 36px;
+
+background: #F8F8F8;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+
+color: #606060;
+}
+.header-language {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 14px;
+gap: 8px;
+width: 144px;
+height: 36px;
+background: #F8F8F8;
+border-radius: 4px; 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+
+color: #606060;
+}
+.header-separator {
+width: 1px;
+height: 36px;
+margin:0px 16px;
+
+}
+.panel-bottom {
+width: 53.41px;
+height: 26px;
+border: 1px solid white;
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+align-self: center;
+}
+
